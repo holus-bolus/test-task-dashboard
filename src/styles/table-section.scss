@@ -30,7 +30,7 @@
     width: 40%;
   }
 
-  @include media-iphone-11-promax{
+  @include media-iphone-11-promax {
     width: 40%;
   }
 }
@@ -128,9 +128,18 @@
     width: 20%;
   }
 
-@include media-iphone-11-promax{
-  width: 20%;
+  @include media-iphone-11-promax {
+    width: 20%;
+  }
 }
+
+
+.table__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 130px;
 }
 
 .table__footer-info {
@@ -143,5 +152,19 @@
   padding-bottom: 40px;
 }
 
+.table__footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.table__counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
 
 
