@@ -1,0 +1,137 @@
+.dashboard {
+  width: 310px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 75px;
+  padding-left: 30px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard__main-heading-wrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+
+.main-heading {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+
+.dashboard__mascot-icon {
+  height: 37px;
+}
+
+.main-heading__version {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(131, 131, 131, 1);
+}
+
+
+.dashboard__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 300px;
+}
+
+.dashboard__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.dashboard__item:active {
+  background-color: rgba(89, 50, 234, 1);
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+
+.dashboard__link--first {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #9197B3;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -1%;
+}
+
+.dashboard__icon-wrapper {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.dashboard__icon {
+  height: 24px;
+}
+
+.dashboard__icon:active {
+  color: #ffffff;
+}
+
+.dashboard__chevron:active {
+  color: #ffffff;
+}
+
+.dashboard__link {
+  color: #9197B3;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -1%;
+}
+
+.dashboard__link:active {
+  color: #FFFFFF;
+}
+
+
+.dashboard__chevron {
+  height: 16px;
+}
+
+.dashboard__profile-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.dashboard__profile-photo {
+  height: 42px;
+}
+
+.dashboard__name-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.dashboard__name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  letter-spacing: 0.1px;
+}
+
+.dashboard__job-title{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
