@@ -12,6 +12,7 @@
   src: url("../fonts/Poppins-Medium.woff2") format('woff2');
 }
 
+
 @font-face {
   font-family: Poppins;
   font-display: swap;
@@ -28,6 +29,8 @@ body {
 .general-container {
   display: flex;
   justify-content: space-between;
-
+  @include media-tablet {
+    width: 600px;
+  }
 }
 

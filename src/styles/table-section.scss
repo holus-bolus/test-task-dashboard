@@ -5,6 +5,11 @@
   padding-bottom: 260px;
   padding-left: 70px;
   width: 100%;
+  @include media-tablet {
+    width: 800px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .main-page-section__heading {
@@ -18,10 +23,23 @@
   background-color: #FFFFFF;
   padding: 30px;
   border-radius: 60px;
+  @include media-iphone-11 {
+    width: 40%;
+  }
+  @include media-galaxy {
+    width: 40%;
+  }
+
+  @include media-iphone-11-promax{
+    width: 40%;
+  }
 }
 
 .table {
   min-width: 970px;
+  @include media-tablet {
+    max-width: 700px;
+  }
 }
 
 .main-page-section__title {
@@ -70,9 +88,14 @@
   border: none;
 }
 
+
 .table__row {
   border-bottom: 1px solid #EEEEEE;
-
+  @include media-tablet {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
 }
 
 
@@ -81,6 +104,7 @@
   padding-bottom: 20px;
   padding-right: 60px;
   min-width: 220px;
+
 }
 
 .table__heading {
@@ -92,6 +116,22 @@
   padding-bottom: 15px;
 }
 
+
+.table__status {
+  @include media-tablet {
+    width: 70%;
+  }
+  @include media-iphone-11 {
+    width: 20%;
+  }
+  @include media-galaxy {
+    width: 20%;
+  }
+
+@include media-iphone-11-promax{
+  width: 20%;
+}
+}
 
 .table__footer-info {
   min-width: 250px;

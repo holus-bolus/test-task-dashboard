@@ -1,11 +1,25 @@
 @mixin media-tablet() {
-  @media (max-width: 1250px) {
+  @media (max-width: 810px) {
     @content;
   }
 }
 
-@mixin media-mobile() {
-  @media (max-width: 680px) {
+@mixin media-iphone-11() {
+  @media (max-width: 375px) {
     @content;
   }
 }
+
+@mixin media-iphone-11-promax() {
+  @media (max-width: 415px) {
+    @content;
+  }
+}
+
+
+@mixin media-galaxy() {
+  @media (max-width: 360px) {
+    @content;
+  }
+}
+

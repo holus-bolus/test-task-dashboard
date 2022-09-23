@@ -7,6 +7,9 @@
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
+  @include media-tablet {
+    display: none;
+  }
 }
 
 .dashboard__main-heading-wrapper {
@@ -15,6 +18,9 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 65px;
+  @include media-tablet {
+    width: 80%;
+  }
 }
 
 .main-heading {
@@ -25,6 +31,9 @@
   display: flex;
   gap: 5px;
   align-items: baseline;
+  @include media-tablet {
+    font-size: 18px;
+  }
 }
 
 .dashboard__mascot-icon {
